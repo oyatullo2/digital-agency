@@ -328,7 +328,7 @@ footer{
     .footer-main{
         overflow-x: hidden;
         display: flex;
-        margin-left: -25px;
+        /* margin-left: -25px; */
     }
     .support-text span{
         font-weight: 700;
@@ -425,7 +425,7 @@ footer{
         justify-content: center;
         flex-direction: column-reverse;
         margin-bottom: 120px;
-        margin-left: -20px;
+        margin-left: -10px;
     }
     .branding-img-div img{
         max-width: 300px;
