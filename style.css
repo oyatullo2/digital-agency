@@ -319,6 +319,17 @@ footer{
 
 /*Media start*/
 @media only screen and (max-width:820px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main{
+        overflow-x: hidden;
+    }
+    .footer-main{
+        overflow-x: hidden;
+        display: flex;
+        margin-left: -25px;
+    }
     .support-text span{
         font-weight: 700;
         font-size: 32px;
@@ -365,7 +376,7 @@ footer{
         font-size: 12px;
     }
     .section-box2 img{
-        max-width: 350px;
+        max-width: 300px;
     }
     .custome-plugin-main-div{
         display: flex;
@@ -417,7 +428,7 @@ footer{
         margin-left: -20px;
     }
     .branding-img-div img{
-        max-width: 350px;
+        max-width: 300px;
     }
     .header-section{
         margin-top: -270px;
